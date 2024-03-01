@@ -10,6 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "prettier": {
+    "singleQuote": true
+  },
   "devDependencies": {
     "husky": "^9.0.11"
   }
