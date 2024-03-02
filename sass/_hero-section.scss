@@ -1,0 +1,30 @@
+@use 'color-palette' as colors;
+
+.web-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 809px;
+  text-align: center;
+  .hero-header {
+    width: 315px;
+    height: 329px;
+    .hero-header__text {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 38px;
+    }
+    .hero-header__description {
+      font-family: 'Mulish', sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+    }
+  }
+}
