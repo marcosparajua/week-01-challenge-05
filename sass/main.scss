@@ -3,6 +3,7 @@
 @use 'hero-section';
 @use 'section-3';
 @use 'features';
+@use 'plans';
 
 $zircon: colors.$zircon;
 
@@ -23,16 +24,19 @@ p {
   margin: 0;
 }
 
-h1 {
+h1,
+h2 {
   line-height: 49.4px;
 }
 
 p {
+  font-family: 'Mulish', sans-serif;
   line-height: 24px;
 }
 
 ul {
   padding: 0;
+  list-style: none;
 }
 
 a {
