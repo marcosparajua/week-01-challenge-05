@@ -11,8 +11,12 @@
   align-items: center;
   height: 809px;
   text-align: center;
+  gap: 50px;
 }
 .hero-section .hero-header {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   width: 315px;
   height: 329px;
 }
@@ -20,58 +24,61 @@
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 38px;
+  line-height: 49.4px;
 }
 .hero-section .hero-header .hero-header__description {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-size: 1rem;
+  line-height: 24px;
 }
 
-.button--rocket-get-started {
-  width: 221px;
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin: 0 auto;
   height: 60px;
+  gap: 10px;
+  line-height: 24px;
   border-radius: 20px;
   padding: 16px, 50px, 16px, 50px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn--rocket-get-started {
+  width: 221px;
   color: white;
   background-color: #009379;
   text-decoration: none;
 }
 
-.button--get-sarted-plain {
+.btn--get-started-plain {
   width: 255px;
-  height: 60px;
-  border-radius: 20px;
-  padding: 16px, 50px, 16px, 50px;
   color: #009379;
   background-color: #e5f4f2;
   text-decoration: none;
 }
 
-.button--get-sarted-arrow {
+.btn--get-started-arrow {
   width: 255px;
-  height: 60px;
-  border-radius: 20px;
-  padding: 16px, 50px, 16px, 50px;
   color: #009379;
   background-color: white;
   text-decoration: none;
 }
 
-button--submit {
+.btn--submit {
   width: 159px;
-  height: 60px;
-  border-radius: 20px;
-  padding: 16px, 50px, 16px, 50px;
   color: white;
   background-color: #009379;
   text-decoration: none;
 }
 
-.button--subscribe {
+.btn--subscribe {
   width: 260px;
-  height: 60px;
-  border-radius: 20px;
-  padding: 16px, 50px, 16px, 50px;
   color: white;
   background-color: #009379;
   text-decoration: none;
@@ -79,6 +86,7 @@ button--submit {
 
 * {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -86,6 +94,13 @@ body {
   background-color: #f8f9ff;
 }
 
-h1 {
+h1,
+h2,
+h3,
+p {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
