@@ -1,10 +1,18 @@
 @use 'color-palette' as colors;
+@use 'hero-section';
 @use 'buttons';
+
+$zircon: colors.$zircon;
 
 * {
   box-sizing: border-box;
 }
 
 body {
+  margin: 0;
+  background-color: $zircon;
+}
+
+h1 {
   margin: 0;
 }

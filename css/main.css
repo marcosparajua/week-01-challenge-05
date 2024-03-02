@@ -1,3 +1,32 @@
+
+.web-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 809px;
+  text-align: center;
+}
+.hero-section .hero-header {
+  width: 315px;
+  height: 329px;
+}
+.hero-section .hero-header .hero-header__text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+}
+.hero-section .hero-header .hero-header__description {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  
 .button--rocket-get-started {
   width: 221px;
   height: 60px;
@@ -8,7 +37,7 @@
   text-decoration: none;
 }
 
-.button--get-sarted-plain {
+.button--get-started-plain {
   width: 255px;
   height: 60px;
   border-radius: 20px;
@@ -18,7 +47,7 @@
   text-decoration: none;
 }
 
-.button--get-sarted-arrow {
+.button--get-started-arrow {
   width: 255px;
   height: 60px;
   border-radius: 20px;
@@ -27,7 +56,7 @@
   background-color: white;
   text-decoration: none;
 }
-
+  
 button--submit {
   width: 159px;
   height: 60px;
@@ -53,5 +82,10 @@ button--submit {
 }
 
 body {
+  margin: 0;
+  background-color: #f8f9ff;
+}
+
+h1 {
   margin: 0;
 }
