@@ -1,0 +1,51 @@
+@use 'color-palette' as colors;
+@use 'buttons';
+
+$mandys-pink: colors.$mandys-pink;
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 600px;
+  .metrics__header {
+    width: 315px;
+    text-align: center;
+    .metrics__title {
+      font-size: 38px;
+      font-weight: 700;
+    }
+    .metrics__description {
+      margin-block-start: 20px;
+      line-height: 20.8px;
+    }
+  }
+  .metrics__data {
+    width: 315px;
+    .metrics__data-section {
+      display: flex;
+      margin-block: 40px;
+      .data__content {
+        display: flex;
+        width: 157.5px;
+        gap: 10px;
+        div {
+          p {
+            padding-block: 10px;
+            line-height: 20.8px;
+          }
+        }
+        .data__content-number {
+          font-weight: 700;
+          font-size: 38px;
+        }
+      }
+      .data__content::before {
+        content: '';
+        border-left: 3px solid $mandys-pink;
+        filter: opacity(0.5);
+      }
+    }
+  }
+}
