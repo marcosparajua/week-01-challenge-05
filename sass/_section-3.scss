@@ -11,8 +11,11 @@ $observatory: colors.$observatory;
   padding-block: 100px 20px;
   gap: 30px;
   .header-3 {
+    width: 315px;
     .header-3__text {
+      font-size: 38px;
       font-weight: 600;
+      margin-block-end: 20px;
     }
   }
   .card {

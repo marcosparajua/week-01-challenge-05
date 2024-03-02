@@ -19,11 +19,16 @@ $aqua-squeeze: colors.$aqua-squeeze;
 }
 
 .features__header {
+  text-align: center;
   align-self: center;
+  width: 315px;
+  font-size: 38px;
 }
 
 .features__subtext {
   text-align: center;
+  font-size: 21px;
+  line-height: 31.5px;
 }
 
 .features__list {
