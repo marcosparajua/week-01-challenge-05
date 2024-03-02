@@ -122,6 +122,99 @@
   box-shadow: 0px 11px 29px -1px #e5f4f2;
 }
 
+.customer {
+  background-color: #f8d57e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding-inline: 32px;
+  padding-block: 100px;
+}
+
+.customer__header {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 49.4px;
+  text-align: center;
+  align-self: center;
+  width: 311px;
+  height: 147px;
+}
+
+.customer__subtext {
+  font-weight: 400;
+  font-size: 16;
+  line-height: 24px;
+  text-align: center;
+  color: #2d2d2d;
+  width: 311px;
+  height: 48px;
+}
+
+.customer__review {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-block: 30px;
+  border: 1px solid #e5f4f2;
+  border-radius: 20px;
+  height: 468.08px;
+  width: 311px;
+}
+
+.customer__avatar {
+  height: 120px;
+  width: 120px;
+}
+
+.customer__lettering {
+  width: 251px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.customer__name {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 27.3px;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.customer__lettering.customer__title {
+  width: 180px;
+  height: 22px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22.4px;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.customer__testimony {
+  width: 251px;
+  height: 120px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.customer__rating {
+  width: 251px;
+  height: 24px;
+  position: relative;
+  top: -20px;
+}
+
 .features {
   display: flex;
   flex-direction: column;
@@ -182,6 +275,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-block-start: 60px;
 }
 .plans .plans__header {
   width: 315px;
