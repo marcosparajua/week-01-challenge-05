@@ -2,7 +2,7 @@
 $aqua-squeeze: colors.$aqua-squeeze;
 $observatory: colors.$observatory;
 
-.section-3 {
+.selected {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,12 +10,15 @@ $observatory: colors.$observatory;
   text-align: center;
   padding-block: 100px 20px;
   gap: 30px;
-  .header-3 {
+  .selected__header {
     width: 315px;
-    .header-3__text {
+    .selected__text {
       font-size: 38px;
       font-weight: 600;
       margin-block-end: 20px;
+    }
+    .selected__desktop {
+      display: none;
     }
   }
   .card {

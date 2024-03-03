@@ -7,7 +7,6 @@ $aqua-squeeze: colors.$aqua-squeeze;
   align-items: center;
   justify-content: center;
   border: none;
-  margin: 0 auto;
   height: 60px;
   gap: 10px;
   line-height: 24px;
@@ -16,38 +15,42 @@ $aqua-squeeze: colors.$aqua-squeeze;
   text-align: center;
   font-size: 1rem;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .btn--rocket-get-started {
   width: 221px;
   color: white;
   background-color: $observatory;
-  text-decoration: none;
+  margin: 0 auto;
+}
+
+.btn--white-green-border {
+  width: 221px;
+  color: $observatory;
+  background-color: white;
+  border: 1px solid $observatory;
 }
 
 .btn--get-started-plain {
   width: 255px;
   color: $observatory;
   background-color: $aqua-squeeze;
-  text-decoration: none;
 }
 .btn--get-started-arrow {
   width: 255px;
   color: $observatory;
   background-color: white;
-  text-decoration: none;
 }
 
 .btn--submit {
   width: 159px;
   color: white;
   background-color: $observatory;
-  text-decoration: none;
 }
 
 .btn--subscribe {
   width: 260px;
   color: white;
   background-color: $observatory;
-  text-decoration: none;
 }
