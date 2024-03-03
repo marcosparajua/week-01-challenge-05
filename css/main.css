@@ -680,6 +680,12 @@ body {
   background-color: #f8f9ff;
 }
 
+main {
+  width: 100vw;
+  overflow-x: hidden;
+  padding-bottom: 3rem;
+}
+
 h1,
 h2,
 h3,
