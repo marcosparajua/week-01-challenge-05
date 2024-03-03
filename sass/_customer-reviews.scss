@@ -76,6 +76,12 @@
   text-align: center;
 }
 
+.customer__review-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .customer__review-right {
   display: flex;
   flex-direction: column;

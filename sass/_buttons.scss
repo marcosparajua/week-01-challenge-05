@@ -7,7 +7,6 @@ $aqua-squeeze: colors.$aqua-squeeze;
   align-items: center;
   justify-content: center;
   border: none;
-  margin: 0 auto;
   height: 60px;
   gap: 10px;
   line-height: 24px;
@@ -23,6 +22,7 @@ $aqua-squeeze: colors.$aqua-squeeze;
   width: 221px;
   color: white;
   background-color: $observatory;
+  margin: 0 auto;
 }
 
 .btn--white-green-border {

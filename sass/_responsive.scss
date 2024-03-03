@@ -3,7 +3,7 @@
 
 $observatory: colors.$observatory;
 
-@media (width > 990px) {
+@media (width > 1060px) {
   // hero-section
   .web-header {
     display: flex;
@@ -123,7 +123,7 @@ $observatory: colors.$observatory;
         .customer__review-left {
           width: 180px;
           p {
-            text-align: left;
+            text-align: center;
           }
         }
         .customer__review-right {
@@ -141,6 +141,60 @@ $observatory: colors.$observatory;
       }
       .rating__desktop {
         display: initial;
+      }
+    }
+  }
+  // plans
+  .plans {
+    height: 814px;
+    justify-content: center;
+    .plans__header {
+      width: 100%;
+    }
+    .plans__card-container {
+      display: flex;
+      gap: 30px;
+    }
+  }
+  // metrics
+  .metrics {
+    height: 420px;
+    justify-content: center;
+    .metrics__header {
+      width: 100%;
+    }
+    .metrics__data-container {
+      .metrics__data {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        width: initial;
+        .metrics__data-section {
+          gap: 100px;
+          .data__number {
+            font-weight: 900;
+          }
+        }
+      }
+    }
+  }
+  // form
+  .contact {
+    .contact-wrapper {
+      width: initial;
+      padding-inline: 60px 100px;
+      .form__header {
+        width: 100%;
+      }
+      .contact__info-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .contact__form {
+          width: 465px;
+          justify-content: flex-start;
+          margin-block-start: initial;
+        }
       }
     }
   }
