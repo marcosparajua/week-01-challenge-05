@@ -19,6 +19,11 @@ body {
   margin: 0;
   background-color: $zircon;
 }
+main {
+  width: 100vw;
+  overflow-x: hidden;
+  padding-bottom: 3rem;
+}
 
 h1,
 h2,
