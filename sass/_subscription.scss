@@ -15,6 +15,7 @@
   align-items: center;
   gap: 40px;
 }
+
 .subscription__header {
   width: 255px;
   height: 36px;
@@ -25,6 +26,7 @@
   color: colors.$mine-shaft;
   text-align: center;
 }
+
 .subscription__subtext {
   width: 255px;
   height: 44px;
@@ -35,6 +37,7 @@
   color: colors.$mine-shaft;
   text-align: center;
 }
+
 .subscription__form {
   width: 260px;
   height: 160px;
@@ -52,6 +55,7 @@
     position: absolute;
   }
 }
+
 .subscription__label {
   width: 220px;
   height: 24px;
@@ -61,6 +65,7 @@
   line-height: 24px;
   color: colors.$mine-shaft;
 }
+
 .subscription__email {
   width: 260px;
   height: 60px;
@@ -73,6 +78,7 @@
   line-height: 24px;
   padding-inline: 20px;
 }
+
 .subscription__button {
   width: 260px;
   height: 60px;
@@ -99,9 +105,8 @@
 .subscription__button img {
   vertical-align: middle;
 }
+
 .footer {
-  width: 100vw;
-  height: 122px;
   padding-block: 24px;
   padding-inline: 20px;
   display: flex;
@@ -110,6 +115,7 @@
   align-items: flex-start;
   background-color: colors.$mine-shaft;
 }
+
 .footer__logos {
   width: 176px;
   height: 32px;
@@ -129,6 +135,7 @@
     align-items: center;
   }
 }
+
 .footer__copyright {
   width: 335px;
   height: 22px;
@@ -138,9 +145,11 @@
   line-height: 22.4px;
   color: #ffffff;
 }
+
 .customer {
   align-self: center;
 }
+
 .subscription-wrapper {
   display: flex;
   justify-content: center;
