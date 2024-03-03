@@ -4,7 +4,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   height: 72px;
+  .web-header__desktop {
+    display: none;
+  }
 }
 
 .hero-section {
@@ -30,6 +34,9 @@
       font-weight: 400;
       font-size: 1rem;
       line-height: 24px;
+    }
+    .btn--white-green-border {
+      display: none;
     }
   }
 }

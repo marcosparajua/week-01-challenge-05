@@ -1,12 +1,13 @@
 @use 'color-palette' as colors;
 @use 'buttons';
 @use 'hero-section';
-@use 'section-3';
+@use 'selected-works';
 @use 'customer-reviews';
 @use 'features';
 @use 'plans';
 @use 'metrics';
 @use 'form';
+@use 'responsive';
 
 $zircon: colors.$zircon;
 
