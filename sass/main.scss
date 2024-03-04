@@ -7,6 +7,7 @@
 @use 'plans';
 @use 'metrics';
 @use 'form';
+@use 'subscription';
 @use 'responsive';
 
 $zircon: colors.$zircon;
@@ -21,8 +22,6 @@ body {
   background-color: $zircon;
 }
 main {
-  width: 100vw;
-  overflow-x: hidden;
   padding-bottom: 3rem;
 }
 

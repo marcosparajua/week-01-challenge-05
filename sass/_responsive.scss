@@ -198,4 +198,28 @@ $observatory: colors.$observatory;
       }
     }
   }
+  // subscription
+  .subscription {
+    width: 80vw;
+    .subscription__form {
+      position: relative;
+      flex-direction: row;
+      gap: 0px;
+      button {
+        position: absolute;
+        left: 140px;
+      }
+      input {
+        position: absolute;
+        left: -100px;
+      }
+    }
+  }
+  // footer
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
